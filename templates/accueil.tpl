@@ -6,14 +6,16 @@
 	</head>
 	
 	<body>
-		<h1>Header 1</h1>
-			<form>
+		<h1>Entrez lez informations suivantes</h1>
+			<form action="/" method="post">
 				Nom : <br>
 				<input type="text" name="nom"><br>
 				Ville: <br>
 				<input type="text" name="ville"><br><br>
 				<input type="submit" value="Submit">
 			</form>
+			
+			<img src="/static/image_pc.jpg" alt="Image"></img>
 	</body>
 		
 </html>

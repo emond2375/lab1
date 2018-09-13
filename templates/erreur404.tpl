@@ -6,9 +6,11 @@
 	</head>
 	
 	<body>
-		Erreur, la page "<URL> n'existe pas.
+		<h1>Erreur 404</h1>
+	
+		Erreur, la page : <b>{{ URL }}</b> n'existe pas. <br><br>
 		
-		Lien vers la page d'accueil
+		<a href="/">Lien pour  retourner à la page d'accueil</a>
 	</body>
 		
 </html>
