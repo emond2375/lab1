@@ -6,8 +6,7 @@
 	</head>
 	
 	<body>
-		<h1>Bonjour {{name}} de {{ville}}, bienvenue sur notre site</h1>
-		
+		<h1>Bonjour {{name | e}} de {{ville | e}}, bienvenue sur notre site</h1>
 		<a href="/">Changer mon identité</a>
 	</body>
 		
